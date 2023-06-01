@@ -1,1 +1,1 @@
-console.log ("You shall not pass!")
+console.log ("Gandalf says: You shall not pass!")
