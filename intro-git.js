@@ -1,1 +1,1 @@
-console.log ("Gandalf says: You shall not pass!")
+console.log ("Gandalf, the Grey, says: You shall not pass!")
