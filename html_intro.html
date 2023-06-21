@@ -8,32 +8,37 @@
 <body>
     <h1 id="inicio"><u>Primeiros passos com HTML</u></h1>
     <hr />
-    <h2>Índice</h2>
+    <h2><font style="font-family: Verdana, Geneva, Tahoma, sans-serif">Índice</font></h2>
     <ul>
         <li><a href="#oqe"><i>O que é <strong>HTML</strong>?</i></a></li>
         <li><a href="#computadores"><i>Primeiros <strong>computadores</strong></i></a></li>
         <li><a href="#internet"><i>Como surgiu a internet</i></a></li>
-        <li><a href="#clientxserver"><i>A relação <strong>cliente</strong> x <strong>servidor</strong></i></a></li>
-        <li><a href="#client"><i>O que são <strong>clientes?</strong></i></a></li>
-        <li><a href="#server"><i>O que são <strong>servidores?</strong></i></a></li>
+        <li><a href="#clientxserver"><i>A relação <strong>client</strong> x <strong>server</strong></i></a></li>
+        <li><a href="#client"><i><strong>Clients</strong></i></a></li>
+        <li><a href="#server"><i><strong>Servers</strong></i></a></li>
+        <li><a href="#progLanguage"><i><strong>Linguagens de programação</strong></i></a></li>
         <li><a href="#estrutura"><i>Como é a estrutura básica de um <strong>HTML</strong>?</i></a></li>
-        <li><a href="#tags"><i>Aprendendo as <strong>tags</strong></i></a></li>
-        <li><a href="#listas"><i>Listas <strong>ordenadas</strong> e <strong>não ordenadas</strong></i></a></li>
+        <li><a href="#learningtags"><i>Aprendendo as <strong>tags</strong></i></a></li>
         <li><a href="#concluindo"><i>Concluindo</i></a></li>
         <li><a href="#references"><i>Links úteis</i></a></li>
+        <li><a href="#definitions"><i>Definições úteis</i></a></li>
     </ul>
-    <h3 id="oqe">O que é <strong>HTML</strong>?</h3>
+    <hr />
+    <h3 id="oqe"><font style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+        O que é <strong>HTML</strong>?</font></h3>
     <small><a href="#inicio">Índice</a></small>
-    <p>HTML (HyperText Markup Language) é uma linguagem de marcação utilizada para a construção de páginas Web.
-        Através dela é possível criar e estruturar seções, parágrafos e links através de atributos, 
+    <p>
+        <abbr>HTML</abbr> (HyperText Markup Language) é uma linguagem de <u id="markup">marcação</u> utilizada para a construção de 
+        páginas Web. Através dela é possível criar e estruturar seções, parágrafos e links através de atributos, 
         elementos e <a href="#tags">tags</a>.
         Por não criar funcionalidades dinâmicas, não é considerada uma linguagem de programação, embora 
         esteja presente na grande maioria das páginas da internet e aplicativos online. 
     </p>
-    <p>Para dar início à nossa jornada, vamos conhecer um pouco sobre os primeiros computadores,
+    <p>
+        Para dar início à nossa jornada, vamos conhecer um pouco sobre os primeiros computadores,
         entender o que são clientes e servidores e explorar as principais tags da linguagem HTML.   
     </p>
-    <h3 id="computadores">Primeiros computadores</h3>
+    <h3 id="computadores"><font style="font-family: Verdana, Geneva, Tahoma, sans-serif">Primeiros computadores</font></h3>
     <small><a href="#inicio">Índice</a></small>
     <p>
         Começamos nossa caminhada pela <u>primeira geração</u> de computadores. O primeiro da lista é o <i>Mark I</i>, 
@@ -85,7 +90,7 @@
     <p>
         Na sequência trataremos do surgimento da <i>internet</i>. 
     </p>
-    <h3 id="internet">Como surgiu a internet</h3>
+    <h3 id="internet"><font style="font-family: Verdana, Geneva, Tahoma, sans-serif">Como surgiu a internet</font></h3>
     <small><a href="#inicio">Índice</a></small>
     <p>
         A <strong>internet</strong> é hoje o principal meio que permite a comunicação ao redor do mundo, mas
@@ -145,23 +150,246 @@
         Para compreendermos melhor como funciona a comunicação através da internet, falaremos em seguida
         sobre a relação <i>cliente x servidor</i>.
     </p>
-    <h3 id="clientxserver">A relação cliente x servidor</h3>
-    <small><a href="#inicio">Índice</a></small>
-    <h3 id="client">O que são clientes</h3>
-    <small><a href="#inicio">Índice</a></small>
-    <h3 id="server">O que são servidores</h3>
-    <small><a href="#inicio">Índice</a></small>
-    <h3 id="estrutura">Como é a estrutura básica de um HTML?</h3>
-    <small><a href="#inicio">Índice</a></small>
-    <h3 id="tags">Aprendendo as tags</h3>
-    <small><a href="#inicio">Índice</a></small>
-    <h3 id="listas">Listas ordenadas e não ordenadas</h3>
-    <small><a href="#inicio">Índice</a></small>
-    <h3 id="concluindo">Concluindo</h3>
-    <small><a href="#inicio">Índice</a></small>
-    <h3 id="references">Links úteis</h3>
+    <h3 id="clientxserver"><font style="font-family: Verdana, Geneva, Tahoma, sans-serif">A relação client x server</font></h3>
     <small><a href="#inicio">Índice</a></small>
     <p>
+        A relação <i>client x server</i> (cliente x servidor) diz respeito a um modelo de comunicação 
+        que vincula vários dispositivos através de uma rede. Nesse âmbito temos o <strong>server</strong>
+        prestando serviços aos computadores conectados a ele através de uma <u>rede</u>, enquanto os
+        <strong>clients</strong> são aqueles que solicitam serviços ao servidor. Em suma: o client solicita
+        ao server um recurso e este fornece uma resposta. 
     </p>
+    <p>
+        Através desse modelo é possível distribuir a capacidade de processamento, uma vez que o server
+        pode ser executado em mais de um equipamento, além da possibilidade de uso de vários programas para
+        tal. Enquanto os clients centralizam os processos no server, este, por sua vez, garante a disponibilidade
+        dos recursos sempre que os clients solicitarem.
+    </p>
+    <p>
+        Os clients consomem informações da internet. Os servers proveem as informações aos clients. Quando 
+        acessamos um site através de um navegador, por exemplo, as informações são solicitadas aos servers,
+        que retornarão arquivos <i>HTML, CSS, Javascript, Imagens</i> etc. 
+        São os chamados <strong>arquivos estáticos</strong>, os quais são enviados do server para o client. 
+        A velocidade de conexão, o tamanho dos arquivos determinam o quão veloz será esse envio.
+        Também auxilia na velocidade do processo o armazenamento dos arquivos no computador do client através
+        do <strong>cache</strong>. Por meio do cache o client acessa as informações já armazenadas direto do 
+        próprio computador, evitando, assim, que tenha que solicitá-las novamente ao server, evitando tráfego
+        inútil.  
+    </p>
+    <h3 id="client"><font style="font-family: Verdana, Geneva, Tahoma, sans-serif">Clients</font></h3>
+    <small><a href="#inicio">Índice</a></small>
+    <p>
+        Tratando especificamente dos clients, fatores como a <i>responsividade</i> dos sistemas e a 
+        <i>compatibilidade</i> entre <u>Browsers</u> (<a href="#navegadores">navegadores</a>) são imprescindíveis 
+        para que o usuário tenha uma experiência agradável e produtiva durante a navegação. Enquanto a 
+        <strong>responsividade</strong> diz respeito às diferentes resoluções ajustadas aos diferentes dispositivos 
+        que podem ser utilizados (celulares, tablets, computadores, TVs etc.), a <strong>compatibilidade</strong> 
+        está relacionada à possibilidade de navegação amigável seja em qual dos browsers for. Para tanto, é boa 
+        prática que sejam feitos testes antes de se definir um site como "pronto para uso".
+    </p>
+    <p>
+        Falando ainda sobre a experiência do usuário (lado client da relação) durante a navegação, temos as
+        <a href="#WebAplications"><strong>aplicações web</strong></a> e os <a href="#WebApps">
+        <strong>aplicativos web</strong></a>, os quais, através de mecanismos diferentes, permitem que
+        sejam acessadas as mesmas informações dos sites aos quais apontam.   
+    </p>
+    <p>
+        Importante ressaltar que, em se tratando dos clients, os dispositivos móveis (smartphones, tablets, 
+        smartwatches etc.) representam, hoje, a maior e mais crescente parcela de utilização, o que demonstra
+        o quão relevante é o estudo e o conhecimento dessas tecnologias.
+    </p>
+    <h3 id="server"><font style="font-family: Verdana, Geneva, Tahoma, sans-serif">Servers</font></h3>
+    <small><a href="#inicio">Índice</a></small>
+    <p>
+        Os servers são computadores destinados ao armazenamento de informações, que, posteriormente, serão
+        solicitadas pelos clientes. Por exigirem maior capacidade de processamento e, normalmente, atenderem
+        a diversos clientes ao mesmo tempo, tendem a ser mais robustos e mais caros.
+        São baseados em duas partes, a <i>lógica</i>, representada pelos <a href="#softwares">
+        <strong>softwares</strong></a> e a <i>física</i>, representada pelos <a href="#hardwares">
+        <strong>hardwares</strong></a>. 
+        Podem ser computadores únicos em uma sala, por exemplo, ou mesmo um conjunto gigantesco de máquinas, 
+        os chamados <i>data centers</i>.
+    </p>
+    <p>
+        Embora em geral os servers utilizem a internet para se comunicar com os clients, essa não é uma regra,
+        uma vez que tal comunicação pode se dar através de uma rede local (<a href="#lan"><strong>LAN</strong>
+        </a>). 
+    </p>
+    <p>
+        Há diversos tipos de servers, os quais podem ser destinados a: 
+        <ul>
+            <li>Armazenamento de arquivos</li>
+            <li>Segurança (Firewall)</li>
+            <li>Streaming</li>
+            <li>E-mail</li>
+            <li>Web</li>
+        </ul> 
+    </p>
+    <p>
+        Os servers funcionam da seguinte maneira: quando um client solicita uma informação (digita o endereço
+        de um site, por exemplo), ele envia uma <a href="#reqHTTP"><i>Requisição HTTP</i></a> ao server, que 
+        retorna com <a href="#arq.stat."><strong>arquivos estáticos</strong></a>.  
+    </p>
+    <p>
+        Ponto importante do uso dos servers diz respeito à <i>hospedagem de sites</i>. 
+        Para que seja possível o acesso a um site, é preciso que seja feita a <u>hospedagem</u> do site em um
+        servidor, o que, em outras palavras, trata-se do envio dos arquivos referentes ao site para um servidor
+        disponível na internet para que os usuários (clients) possam acessar. 
+    </p>
+    <p>
+        Em seguida, trataremos das <font color="red">linguagens de programação</font>. 
+    </p>
+    <h3 id="progLanguage"><font style="font-family: Verdana, Geneva, Tahoma, sans-serif">Linguagens de programação</font></h3>
+    <small><a href="#inicio">Índice</a></small>
+    <p>
+        <strong>Linguagem de programação</strong> é uma linguagem escrita e formal que especifica um conjunto
+        de instruções e regras usadas para gerar programas <a href="#softwares">(<u>softwares</u>)</a>.
+    </p>
+    <p>
+        Segundo o relatório de janeiro de 2023 da <a href="https://redmonk.com/sogrady/2023/05/16/language-rankings-1-23/">
+        <i>RedMonk</i></a>, as 5 linguagens de programação mais utilizadas são:
+    </p>
+    <ol>
+        <li><i>Javascript</i></li>
+        <li><i>Python</i></li>
+        <li><i>Java</i></li>
+        <li><i>PHP</i></li>
+        <li><i>C#</i></li>
+    </ol>
+    <p>
+        Não quer dizer que as linguagens acima são as melhores ou são as mais recomendadas, tudo dependerá do objetivo
+        e da preferência do programador. Cada linguagem tem sua característica; cabe ao programador a escolha de trabalhar
+        com aquela que solucionará o problema que precisa ser resolvido. Dicas importantes são aprender ao menos uma
+        linguagem e, sempre que possível, optar por aquela da qual a comunidade é mais engajada. 
+    </p>
+    <blockquote style="color: brown">
+        <h4><i>Mas o HTML é uma linguagem de programação?</i></h4>
+            Não. Como mencionamos <a href="#markup"><u>acima</u></a>, <mark>HTML é uma linguagem de marcação</mark>.
+            São textos delimitados por nomes que o navegador consegue interpretar. Cada nome desses limitadores tem uma
+            função e um comportamento específico. 
+    </blockquote>
+    <h3 id="estrutura"><font style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+        Como é a estrutura básica de um HTML?</font></h3>
+    <small><a href="#inicio">Índice</a></small>
+    <p>
+        O <strong>HTML</strong> é formado, basicamente, por três partes:
+        <ul>
+            <li><strong>html:</strong> representa a raiz do documento; serve como um conteiner que engloba 
+                todos os outros elementos.
+            </li>
+            <li><strong>head:</strong> compreende as informações do documento que serão interpretadas pelo 
+                navegador (metdados), como, por exemplo, título de documento, links para folhas de estilo etc. 
+            </li>
+            <li><strong>body:</strong> é onde fica todo o conteúdo de texto, imagens e vídeos que o usuário vê
+            e com os quais interage. Nele os conteúdos são estruturados pelas diversas tags do HTML.
+            </li>
+        </ul>
+    </p>
+    <h3 id="learningtags"><font style="font-family: Verdana, Geneva, Tahoma, sans-serif">Aprendendo as tags</font></h3>
+    <small><a href="#inicio">Índice</a></small>
+    <p>
+        As <strong>tags</strong> possuem uma estrutura peculiar, iniciando com um sinal de "menor que" e finalizando com 
+        um sinal de "maior que". Entre esses sinais fica o nome do elemento. Elas podem precisar de fechamento (o qual se 
+        faz com uma mesma segunda estrutura de sinais, mas com uma barra "/" antes do nome do elemento) ou não (no caso 
+        das que não precisam, não há necessidade da presença da barra).  
+    </p>
+    <p>
+        Por meio das tags são feitas as marcações no documento, seja alterando tamanhos de títulos, estilo da fonte
+        (se negrito, itálico ou sublinhado, por exemplo), entre outros diversos recursos. Além disso, elas possuem 
+        atributos, que podem identificá-las ("id"), formatá-las ("style"), atribuir classe a elas ("class"),
+        definir seu tipo ("type"), entre diversas outras, que podem ser genéricas ou específicas de algumas telas. 
+    <p>
+        Ao final desta página podem ser encontradas algumas <a href="#tags"><u>tags</u></a>
+        comuns. 
+    </p>
+    <h3 id="concluindo"><font style="font-family: Verdana, Geneva, Tahoma, sans-serif">Concluindo</font></h3>
+    <small><a href="#inicio">Índice</a></small>
+    <p>
+        A partir deste guia pudemos conhecer um pouco sobre a história dos computadores, entendendo como se deu sua
+        evolução e como a comunicação foi se transformando até que se tornasse a internet como utilizamos hoje. Tivemos o 
+        primeiro contato com os conceitos de <i>client</i> e <i>server</i>, além de entender como é a relação entre eles. 
+        Vimos também o que são linguagens de programação e pudemos perceber que o HTML não se encontra nessa lista, uma vez 
+        que se trata de uma linguagem de marcação. Demos também os primeiros passos para entender o HTML, sua estrutura,
+        suas tags e seus atributos.
+    </p>
+    <p>
+        Que esse possa ser apenas o começo da jornada na programação! São inúmeros recursos, linguagens, formas de fazer.
+        O importante é se concentrar no aprendizado, focar em um passo de cada vez e ter perseverança para poder superar
+        os desafios. Vale lembrar, também, que é imprescindível o espírito arrojado e a sede por conhecimento, elementos
+        cruciais àqueles que sabem do quão necessário é se manter em constante atualização e com a mente aberta a novas
+        experiências.
+    </p>
+    <p>
+        <strong>Bons estudos!</strong>
+    </p>
+    <hr />
+    <h3 id="references"><font style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+        Links úteis</font></h3>
+    <small><a href="#inicio">Índice</a></small>
+    <ul>
+        <li><a href="https://conceito.de/cliente-servidor ">https://conceito.de/cliente-servidor</a></li>
+        <li><a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos">
+            https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Messages">
+            https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Messages</a></li>
+        <li><a href="https://redmonk.com/sogrady/category/programming-languages/">
+            https://redmonk.com/sogrady/category/programming-languages/</a></li>
+        <li><a href="https://www.javatpoint.com/html-tags">https://www.javatpoint.com/html-tags</a></li>
+    </ul>
+    <hr />
+    <h3 id="definitions"><font style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        Definições úteis</font></h3>
+    <small><a href="#inicio">Índice</a></small>
+    <p>
+        <ul>
+            <li id="navegadores"><i><strong>Navegadores</strong></i></li>
+            <p>
+                São programas criados por empresas, utilizados para abrir/ executar arquivos. 
+                Seguem padrões W3C, embora sempre haja diferenças de interpretação.
+            </p>
+            <p>
+                São também chamados de <i>browsers</i>.
+                São gratuitos.
+            </p>
+            <li id="WebAplications"><i><strong>Aplicações Web</strong></i></li>
+            <p>
+                São soluções criadas que possuem a internet como meio de comunicação entre client x server,
+                <strong><u>não</u></strong> sendo necessária sua instalação (exemplo: youtube acessado pelo 
+                navegador, através do endereço <a href="http://www.youtube.com">www.youtube.com</a>).
+            </p>
+            <li id="WebApps"><i><strong>Aplicativos Web</strong></i></li>
+            <p>
+                São soluções criadas que possuem a internet como meio de comunicação entre client x server,
+                sendo necessária sua instalação (exemplo: youtube acessado pelo aplicativo instalado no celular).
+            </p>
+            <li id="lan"><i><strong>LAN</strong></i></li>
+            <p>
+                Sigla para "Local Area Network". É uma rede local, na qual há um computador central conectado
+                a outros computadores e se comunicando com eles, sem o auxílio da internet.  
+            </p>
+            <li id="softwares"><i><strong>Software</strong></i></li>
+            <p>
+                Parte lógica de um server. Podem ser sistemas operacionais, programas de monitoramento ou mesmo
+                servidores web. 
+            </p>
+            <li id="hardwares"><i><strong>Hardware</strong></i></li>
+            <p>
+                Parte física de um server. São peças de armazenamento (discos rígidos, SSDs), memória e 
+                processadores, por exemplo.
+            </p>
+            <li id="reqHTTP"><i><strong>Requisição HTTP</strong></i></li>
+            <p>
+                Mensagem enviada pelo client para iniciar uma ação no server. 
+            </p>
+            <li id="arq.stat."><i><strong>Arquivos estáticos</strong></i></li>
+            <p>
+                Arquivos <i>HTML, CSS, Javascript, imagens, áudios</i> etc. os quais são enviados do server 
+                para o client após uma Requisição HTTP.  
+            </p>
+            <li id="tags"><i><strong>Tags comuns</strong></i></li>
+            <img width="1000" src="ListaTags.jpeg"/>
+        </ul>
+    </p>
+    <small><a href="#inicio">Índice</a></small>
 </body>
 </html>
